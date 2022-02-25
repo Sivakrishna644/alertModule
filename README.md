@@ -11,11 +11,34 @@ npm install alertmodule
 ## Usage
 
 ```js
-import { multiply } from "alertmodule";
+import { AlertModule } from 'alertmodule';
 
 // ...
 
-const result = await multiply(3, 7);
+//const result = await multiply(3, 7);
+// ...
+
+//const result = await multiply(3, 7);
+class GeneralStarExample extends Component {
+  //   constructor(props) {
+  //     super(props);
+  //     this.state = {
+  //       starCount: 3.5
+  //     };
+  //   }
+
+  //   onStarRatingPress(rating) {
+  //     this.setState({
+  //       starCount: rating
+  //     });
+  //   }
+
+  render() {
+    return <AlertModule />;
+  }
+}
+
+export default GeneralStarExample;
 ```
 
 ## Contributing
