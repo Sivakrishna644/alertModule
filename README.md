@@ -5,7 +5,7 @@ displays alert as soon as app is opened
 ## Installation
 
 ```sh
-npm install alertmodule
+npm install https://github.com/Sivakrishna644/alertModule
 ```
 
 ## Usage
